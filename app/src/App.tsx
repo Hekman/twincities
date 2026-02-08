@@ -255,13 +255,14 @@ function App() {
   // Compute selected city's connected city nodes (for rendering labels + dots)
   const selectedConnectedCities = useMemo(() => {
     if (!selectedCity) return [];
-    const connected: { name: string; country: string; projected: [number, number]; labelX: number; labelY: number }[] = [];
+    const connected: { name: string; country: string; coords: [number, number]; projected: [number, number]; labelX: number; labelY: number }[] = [];
     // Add the selected city itself
     const selfProj = projection(selectedCity.city.coords);
     if (selfProj) {
       connected.push({
         name: selectedCity.city.name,
         country: selectedCity.city.country,
+        coords: selectedCity.city.coords,
         projected: [selfProj[0], selfProj[1]],
         labelX: selfProj[0] + 7,
         labelY: selfProj[1] - 8,
@@ -282,6 +283,7 @@ function App() {
         connected.push({
           name: twinName,
           country: twinCountry,
+          coords: twinCoords,
           projected: [proj[0], proj[1]],
           labelX: proj[0] + 7,
           labelY: proj[1] - 8,
@@ -368,6 +370,84 @@ function App() {
       if (tp) coords.add(`${tp[0].toFixed(1)}|${tp[1].toFixed(1)}`);
     });
     return coords;
+  }, [hoveredCity, projection]);
+
+  // Compute labels for hovered city's connections
+  const hoveredConnectedCities = useMemo(() => {
+    if (!hoveredCity) return [];
+    const connected: { name: string; country: string; projected: [number, number]; labelX: number; labelY: number }[] = [];
+    const city = hoveredCity.city;
+    const selfProj = projection(city.coords);
+    if (selfProj) {
+      connected.push({
+        name: city.name,
+        country: city.country,
+        projected: [selfProj[0], selfProj[1]],
+        labelX: selfProj[0] + 7,
+        labelY: selfProj[1] - 8,
+      });
+    }
+    hoveredCity.pairs.forEach((p) => {
+      const isCity1 = p.lng1 === city.coords[0] && p.lat1 === city.coords[1];
+      const twinCoords: [number, number] = isCity1 ? [p.lng2, p.lat2] : [p.lng1, p.lat1];
+      const twinName = isCity1 ? p.city2 : p.city1;
+      const twinCountry = isCity1 ? p.country2 || "" : p.country1 || "";
+      const proj = projection(twinCoords);
+      if (proj) {
+        connected.push({
+          name: twinName,
+          country: twinCountry,
+          projected: [proj[0], proj[1]],
+          labelX: proj[0] + 7,
+          labelY: proj[1] - 8,
+        });
+      }
+    });
+
+    // Resolve label overlaps
+    const placedRects: { x: number; y: number; w: number; h: number }[] = [];
+    const lh = 15;
+    const pad = 2;
+
+    for (let i = 0; i < connected.length; i++) {
+      const c = connected[i];
+      const lw = c.name.length * 5.5 + 14;
+      let bestX = c.labelX;
+      let bestY = c.labelY;
+      let resolved = false;
+
+      const offsets = [
+        [7, -8], [7, 6], [-lw - 5, -8], [-lw - 5, 6],
+        [7, -8 - lh - pad], [7, 6 + lh + pad],
+        [-lw - 5, -8 - lh - pad], [-lw - 5, 6 + lh + pad],
+      ];
+
+      for (const [ox, oy] of offsets) {
+        const cx = c.projected[0] + ox;
+        const cy = c.projected[1] + oy;
+        const overlaps = placedRects.some(
+          (r) => cx < r.x + r.w + pad && cx + lw + pad > r.x && cy < r.y + r.h + pad && cy + lh + pad > r.y
+        );
+        if (!overlaps) { bestX = cx; bestY = cy; resolved = true; break; }
+      }
+
+      if (!resolved) {
+        for (let dy = 0; dy < 200; dy += lh + pad) {
+          const cx = c.projected[0] + 7;
+          const cy = c.projected[1] + dy;
+          const overlaps = placedRects.some(
+            (r) => cx < r.x + r.w + pad && cx + lw + pad > r.x && cy < r.y + r.h + pad && cy + lh + pad > r.y
+          );
+          if (!overlaps) { bestX = cx; bestY = cy; break; }
+        }
+      }
+
+      c.labelX = bestX;
+      c.labelY = bestY;
+      placedRects.push({ x: bestX, y: bestY, w: lw, h: lh });
+    }
+
+    return connected;
   }, [hoveredCity, projection]);
 
   // Compute labels for search results (all filtered cities get labels)
@@ -764,7 +844,9 @@ function App() {
           )}
 
           {/* Labels for selected city's connected cities */}
-          {selectedConnectedCities.map((c, i) => (
+          {selectedConnectedCities.map((c, i) => {
+            const cityNode = i > 0 ? cityMap.get(`${c.coords[1]}|${c.coords[0]}`) : null;
+            return (
             <g key={`label-${i}`} transform={`translate(${c.projected[0]}, ${c.projected[1]}) scale(${1/zoom}) translate(${-c.projected[0]}, ${-c.projected[1]})`}>
               {/* Bright dot for connected city */}
               <circle
@@ -774,6 +856,16 @@ function App() {
                 fill={i === 0 ? "#fff" : "rgba(0, 220, 255, 0.9)"}
                 stroke={i === 0 ? "rgba(0, 200, 255, 0.8)" : "rgba(0, 220, 255, 0.4)"}
                 strokeWidth={i === 0 ? 2 : 1}
+                style={i > 0 ? { cursor: "pointer" } : undefined}
+                onMouseEnter={i > 0 && cityNode ? (e) => {
+                  const cityPairs = findPairsForCity(cityNode);
+                  setHoveredCity({ city: cityNode, pairs: cityPairs, x: e.clientX, y: e.clientY });
+                } : undefined}
+                onMouseLeave={i > 0 ? () => setHoveredCity(null) : undefined}
+                onClick={i > 0 && cityNode ? (e) => {
+                  e.stopPropagation();
+                  handleCityClick(cityNode);
+                } : undefined}
               />
               {/* Leader line from dot to label if label was repositioned */}
               {(Math.abs(c.labelX - (c.projected[0] + 7)) > 1 || Math.abs(c.labelY - (c.projected[1] - 8)) > 1) && (
@@ -784,9 +876,10 @@ function App() {
                   y2={c.labelY + 7}
                   stroke="rgba(0, 180, 255, 0.15)"
                   strokeWidth={0.5}
+                  style={{ pointerEvents: "none" }}
                 />
               )}
-              {/* Label background */}
+              {/* Label background + text — also clickable for connected cities */}
               <rect
                 x={c.labelX}
                 y={c.labelY}
@@ -796,14 +889,69 @@ function App() {
                 fill="rgba(13, 13, 26, 0.9)"
                 stroke="rgba(0, 180, 255, 0.2)"
                 strokeWidth={0.5}
+                style={i > 0 ? { cursor: "pointer" } : undefined}
+                onMouseEnter={i > 0 && cityNode ? (e) => {
+                  const cityPairs = findPairsForCity(cityNode);
+                  setHoveredCity({ city: cityNode, pairs: cityPairs, x: e.clientX, y: e.clientY });
+                } : undefined}
+                onMouseLeave={i > 0 ? () => setHoveredCity(null) : undefined}
+                onClick={i > 0 && cityNode ? (e) => {
+                  e.stopPropagation();
+                  handleCityClick(cityNode);
+                } : undefined}
               />
-              {/* Label text */}
               <text
                 x={c.labelX + 5}
                 y={c.labelY + 11}
                 fontSize={i === 0 ? 10 : 9}
                 fontWeight={i === 0 ? 700 : 500}
                 fill={i === 0 ? "#fff" : "rgba(0, 220, 255, 0.9)"}
+                fontFamily="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+                style={i > 0 ? { cursor: "pointer", pointerEvents: "none" } : { pointerEvents: "none" }}
+              >
+                {c.name}
+              </text>
+            </g>
+            );
+          })}
+
+          {/* Labels for hovered city's connected cities */}
+          {hoveredConnectedCities.map((c, i) => (
+            <g key={`hover-label-${i}`} style={{ pointerEvents: "none" }} transform={`translate(${c.projected[0]}, ${c.projected[1]}) scale(${1/zoom}) translate(${-c.projected[0]}, ${-c.projected[1]})`}>
+              <circle
+                cx={c.projected[0]}
+                cy={c.projected[1]}
+                r={i === 0 ? 5 : 3.5}
+                fill={i === 0 ? "#fff" : "rgba(255, 200, 50, 0.9)"}
+                stroke={i === 0 ? "rgba(255, 200, 50, 0.8)" : "rgba(255, 200, 50, 0.4)"}
+                strokeWidth={i === 0 ? 2 : 1}
+              />
+              {(Math.abs(c.labelX - (c.projected[0] + 7)) > 1 || Math.abs(c.labelY - (c.projected[1] - 8)) > 1) && (
+                <line
+                  x1={c.projected[0]}
+                  y1={c.projected[1]}
+                  x2={c.labelX + 2}
+                  y2={c.labelY + 7}
+                  stroke="rgba(255, 200, 50, 0.15)"
+                  strokeWidth={0.5}
+                />
+              )}
+              <rect
+                x={c.labelX}
+                y={c.labelY}
+                width={c.name.length * 5.5 + 14}
+                height={15}
+                rx={3}
+                fill="rgba(13, 13, 26, 0.9)"
+                stroke="rgba(255, 200, 50, 0.2)"
+                strokeWidth={0.5}
+              />
+              <text
+                x={c.labelX + 5}
+                y={c.labelY + 11}
+                fontSize={i === 0 ? 10 : 9}
+                fontWeight={i === 0 ? 700 : 500}
+                fill={i === 0 ? "#fff" : "rgba(255, 200, 50, 0.9)"}
                 fontFamily="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
               >
                 {c.name}
