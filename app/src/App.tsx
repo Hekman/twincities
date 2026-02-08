@@ -352,6 +352,23 @@ function App() {
   }, [selectedCity, projection]);
 
   const hasSelection = selectedCity !== null;
+  const hasHighlight = hoveredCity !== null || hasSelection;
+
+  // Compute hovered city's connected projected coords (for dimming dots on hover)
+  const hoveredConnectedCoords = useMemo(() => {
+    if (!hoveredCity) return new Set<string>();
+    const coords = new Set<string>();
+    const city = hoveredCity.city;
+    const proj = projection(city.coords);
+    if (proj) coords.add(`${proj[0].toFixed(1)}|${proj[1].toFixed(1)}`);
+    hoveredCity.pairs.forEach((p) => {
+      const isCity1 = p.lng1 === city.coords[0] && p.lat1 === city.coords[1];
+      const twinCoords: [number, number] = isCity1 ? [p.lng2, p.lat2] : [p.lng1, p.lat1];
+      const tp = projection(twinCoords);
+      if (tp) coords.add(`${tp[0].toFixed(1)}|${tp[1].toFixed(1)}`);
+    });
+    return coords;
+  }, [hoveredCity, projection]);
 
   // Compute labels for search results (all filtered cities get labels)
   const searchLabels = useMemo(() => {
@@ -476,7 +493,7 @@ function App() {
               connections across the globe, sourced from Wikipedia. Each line
               represents a partnership between two cities.
             </p>
-            <p className="modal-credit">Made by Erik Hekman with Claude Code</p>
+            <p className="modal-credit">Made by <a href="https://www.linkedin.com/in/erikhekman/" target="_blank" rel="noopener noreferrer">Erik Hekman</a> with Claude Code</p>
             <div className="modal-stats">
               <div className="stat">
                 <span className="stat-number">
@@ -621,7 +638,7 @@ function App() {
                   geography={geo}
                   fill="#1a1a2e"
                   stroke="#2a2a4a"
-                  strokeWidth={0.5}
+                  strokeWidth={0.5 / zoom}
                   style={{
                     default: { outline: "none" },
                     hover: { outline: "none", fill: "#222244" },
@@ -638,13 +655,13 @@ function App() {
             d={linesPath}
             fill="none"
             stroke={
-              hasSelection
+              hasHighlight
                 ? "rgba(0, 180, 255, 0.015)"
                 : isFiltered
                 ? "rgba(0, 180, 255, 0.3)"
-                : "rgba(0, 180, 255, 0.08)"
+                : "rgba(0, 180, 255, 0.12)"
             }
-            strokeWidth={isFiltered && !hasSelection ? 1 : 0.5}
+            strokeWidth={(isFiltered && !hasHighlight ? 1 : 0.5) / zoom}
             strokeLinecap="round"
           />
 
@@ -654,7 +671,7 @@ function App() {
               d={selectedPath}
               fill="none"
               stroke="rgba(0, 220, 255, 0.85)"
-              strokeWidth={1.5}
+              strokeWidth={1.5 / zoom}
               strokeLinecap="round"
             />
           )}
@@ -665,21 +682,21 @@ function App() {
               d={hoveredPath}
               fill="none"
               stroke="rgba(255, 200, 50, 0.7)"
-              strokeWidth={1.5}
+              strokeWidth={1.5 / zoom}
               strokeLinecap="round"
             />
           )}
 
-          {/* City markers */}
-          {(isFiltered ? cities : cities.filter((c) => c.connections >= 3)).map(
+          {/* City markers — show more cities as you zoom in */}
+          {(isFiltered ? cities : cities.filter((c) => c.connections >= Math.max(1, Math.ceil(3 / zoom)))).map(
             (city, i) => {
               const projected = projection(city.coords);
               if (!projected) return null;
 
               const isSelected = selectedCity?.city === city;
               const isHovered = hoveredCity?.city === city;
-              // Dim non-connected cities when there's a selection
-              const isConnected =
+              // Dim non-connected cities when there's a highlight (selection or hover)
+              const isConnectedToSelection =
                 !hasSelection ||
                 isSelected ||
                 selectedConnectedCities.some(
@@ -687,6 +704,12 @@ function App() {
                     Math.abs(c.projected[0] - projected[0]) < 0.1 &&
                     Math.abs(c.projected[1] - projected[1]) < 0.1
                 );
+              const isConnectedToHover =
+                !hoveredCity ||
+                isHovered ||
+                hoveredConnectedCoords.has(`${projected[0].toFixed(1)}|${projected[1].toFixed(1)}`);
+              const isConnected = hasSelection ? isConnectedToSelection : isConnectedToHover;
+              const isDimmed = hasHighlight && !isConnected && !isHovered;
 
               return (
                 <circle
@@ -694,31 +717,32 @@ function App() {
                   cx={projected[0]}
                   cy={projected[1]}
                   r={
-                    isSelected
+                    (isSelected
                       ? 5
                       : isHovered
                       ? 4
-                      : hasSelection && !isConnected
+                      : isDimmed
                       ? Math.min(1 + city.connections * 0.05, 1.5)
                       : Math.min(1 + city.connections * 0.15, 3)
+                    ) / zoom
                   }
                   fill={
                     isSelected
                       ? "#fff"
                       : isHovered
                       ? "rgba(255, 255, 255, 0.9)"
-                      : hasSelection && !isConnected
+                      : isDimmed
                       ? "rgba(0, 200, 255, 0.04)"
                       : "rgba(0, 200, 255, 0.7)"
                   }
                   stroke={
                     isSelected
                       ? "rgba(0, 200, 255, 0.8)"
-                      : hasSelection && !isConnected
+                      : isDimmed
                       ? "rgba(0, 200, 255, 0.02)"
                       : "rgba(0, 200, 255, 0.3)"
                   }
-                  strokeWidth={isSelected ? 2 : 0.5}
+                  strokeWidth={(isSelected ? 2 : 0.5) / zoom}
                   style={{ cursor: "pointer" }}
                   onMouseEnter={(e) => {
                     const cityPairs = findPairsForCity(city);
@@ -741,7 +765,7 @@ function App() {
 
           {/* Labels for selected city's connected cities */}
           {selectedConnectedCities.map((c, i) => (
-            <g key={`label-${i}`}>
+            <g key={`label-${i}`} transform={`translate(${c.projected[0]}, ${c.projected[1]}) scale(${1/zoom}) translate(${-c.projected[0]}, ${-c.projected[1]})`}>
               {/* Bright dot for connected city */}
               <circle
                 cx={c.projected[0]}
@@ -789,7 +813,7 @@ function App() {
 
           {/* Labels for search results */}
           {searchLabels.map((c, i) => (
-            <g key={`search-label-${i}`}>
+            <g key={`search-label-${i}`} transform={`translate(${c.projected[0]}, ${c.projected[1]}) scale(${1/zoom}) translate(${-c.projected[0]}, ${-c.projected[1]})`}>
               {/* Leader line if repositioned */}
               {(Math.abs(c.labelX - (c.projected[0] + 7)) > 1 || Math.abs(c.labelY - (c.projected[1] - 8)) > 1) && (
                 <line

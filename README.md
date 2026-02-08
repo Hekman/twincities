@@ -4,7 +4,7 @@ An interactive world map visualizing **25,900+ sister/twin city partnerships** a
 
 Twin cities (or sister cities) are a form of legal agreement between towns, cities, regions, or countries for the purpose of promoting cultural and commercial ties. This project scrapes, geocodes, and visualizes these connections on a dark-themed interactive map.
 
-**Made by Erik Hekman with [Claude Code](https://claude.ai/claude-code)**
+**Made by [Erik Hekman](https://www.linkedin.com/in/erikhekman/) with [Claude Code](https://claude.ai/claude-code)**
 
 ## Features
 
