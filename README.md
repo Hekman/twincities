@@ -1,6 +1,6 @@
 # Twin Cities
 
-An interactive world map visualizing **23,900+ sister/twin city partnerships** across the globe.
+An interactive world map visualizing **25,900+ sister/twin city partnerships** across the globe.
 
 Twin cities (or sister cities) are a form of legal agreement between towns, cities, regions, or countries for the purpose of promoting cultural and commercial ties. This project scrapes, geocodes, and visualizes these connections on a dark-themed interactive map.
 
@@ -8,7 +8,7 @@ Twin cities (or sister cities) are a form of legal agreement between towns, citi
 
 ## Features
 
-- **Interactive world map** with 23,900+ sister city connections rendered as lines between cities
+- **Interactive world map** with 25,900+ sister city connections rendered as lines between cities
 - **Click to select** a city and see all its sister city connections highlighted, with labels on each connected city
 - **Hover** over any city dot to see its connections and a tooltip with details
 - **Search** cities or countries — matching cities are labeled on the map
@@ -40,7 +40,12 @@ With 17,820 unique cities to geocode, a multi-phase approach was used:
 2. **Wikipedia search retry** — caught cities with slightly different article names
 3. **Nominatim fallback** — for the remaining top 3,000 most-referenced cities
 
-**Result:** 23,912 pairs geocoded (91.6% coverage).
+This initial pass achieved 91.6% coverage (23,912 pairs). A second targeted pass was then run to recover the remaining ~2,400 missing cities using:
+
+4. **Name cleaning** — stripping parenthetical qualifiers like "(rural gmina)", splitting compound names like "Haaren -- Esch", and fixing country names like "Georgia (country)"
+5. **Wikipedia search + Nominatim** — combining search-based lookups with cleaned name variants
+
+**Result:** 25,917 pairs geocoded (99.2% coverage) — only 197 pairs remain unresolved.
 
 ### 3. Visualization (React + TypeScript)
 
