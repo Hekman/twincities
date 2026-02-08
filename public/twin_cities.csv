@@ -1,0 +1,518 @@
+city1,country1,lat1,lng1,city2,country2,lat2,lng2
+Berat,Albania,40.7018636,19.9580758,Amasya,Turkey,40.6569451,35.7727169
+Berat,Albania,40.7018636,19.9580758,Bağcılar,Turkey,41.034547,28.8567558
+Berat,Albania,40.7018636,19.9580758,Bérat,France,43.3793823,1.1759296
+Berat,Albania,40.7018636,19.9580758,Fermo,Italy,43.0922489,13.6387681
+Berat,Albania,40.7018636,19.9580758,Karmiel,Israel,32.9159104,35.293429
+Berat,Albania,40.7018636,19.9580758,Lovech,Bulgaria,43.0444495,24.4910249
+Berat,Albania,40.7018636,19.9580758,Prizren,Kosovo,42.2130151,20.7363339
+Berat,Albania,40.7018636,19.9580758,Ulcinj,Montenegro,41.926012,19.2055563
+Dropull,Albania,39.8694303,20.326274,Trikala,Greece,39.5560869,21.7678844
+Aldea Valle María,Argentina,-31.990497,-60.5882194,Meinhard,Germany,51.2140398,10.0610708
+Almirante Brown,Argentina,-25.7701189,-61.4548682,Isla Mujeres,Mexico,21.2371906,-86.7350001
+Almirante Brown,Argentina,-25.7701189,-61.4548682,Montevideo,Uruguay,-34.9058916,-56.1913095
+Azul,Argentina,-36.777492,-59.863442,Alcalá de Henares,Spain,40.481954,-3.363981
+Abovyan,Armenia,40.2714761,44.6333951,Villeurbanne,France,45.7733573,4.8868454
+Akhtala,Armenia,41.1481619,44.7698018,Kobuleti,Georgia,41.8113601,41.7793202
+Alaverdi,Armenia,41.0981441,44.6460913,Daugavpils,Latvia,55.8712267,26.5159337
+Alaverdi,Armenia,41.0981441,44.6460913,Kobuleti,Georgia,41.8113601,41.7793202
+Alaverdi,Armenia,41.0981441,44.6460913,Polotsk,Belarus,55.4854656,28.7682339
+Ararat,Armenia,40.0053589,44.7315157,Ungheni,Moldova,47.2059965,27.798917
+Adelaide,Australia,-34.9281805,138.5999312,Austin,United States,30.2711286,-97.7436995
+Adelaide,Australia,-34.9281805,138.5999312,Christchurch,New Zealand,-43.530955,172.6364343
+Adelaide,Australia,-34.9281805,138.5999312,Himeji,Japan,34.8153529,134.6854793
+Adelaide,Australia,-34.9281805,138.5999312,Penang Island,Malaysia,5.4065013,100.2559077
+Adelaide,Australia,-34.9281805,138.5999312,Qingdao,China,36.0663249,120.3777659
+Albany,Australia,-35.0247822,117.883608,Nichinan,Japan,31.6019221,131.3788769
+Ballarat,Australia,-37.5623013,143.8605645,Inagawa,Japan,34.9463165,135.352052
+Banana,Australia,-24.809184,150.1037835,Boulouparis,New Caledonia,-21.8629851,166.0509591
+Bathurst,Australia,-33.4166378,149.5804943,Ōkuma,Japan,38.0672169,140.8548076
+Abtenau,Austria,47.5642319,13.3460333,Big Bear Lake,United States,34.2440587,-116.91018
+Abtenau,Austria,47.5642319,13.3460333,Münster,Germany,51.9625101,7.6251879
+Adnet,Austria,47.6963575,13.1307565,Oppenheim,Germany,49.8527604,8.3548557
+Baku,Azerbaijan,40.3755885,49.8328009,Basra,Iraq,30.4952371,47.8090981
+Baku,Azerbaijan,40.3755885,49.8328009,Bordeaux,France,44.841225,-0.5800364
+Baku,Azerbaijan,40.3755885,49.8328009,Dakar,Senegal,14.693425,-17.447938
+Baku,Azerbaijan,40.3755885,49.8328009,Houston,United States,29.7589382,-95.3676974
+Baku,Azerbaijan,40.3755885,49.8328009,İzmir,Turkey,38.4192537,27.128469
+Baku,Azerbaijan,40.3755885,49.8328009,Jeddah,Saudi Arabia,21.5504432,39.1742363
+Baku,Azerbaijan,40.3755885,49.8328009,Kyiv,Ukraine,50.4500336,30.5241361
+Baku,Azerbaijan,40.3755885,49.8328009,Ljubljana,Slovenia,46.0500268,14.5069289
+Baku,Azerbaijan,40.3755885,49.8328009,Moscow,Russia,55.625578,37.6063916
+Baku,Azerbaijan,40.3755885,49.8328009,Naples,Italy,40.8358846,14.2487679
+Baku,Azerbaijan,40.3755885,49.8328009,Pretoria,South Africa,-25.7459277,28.1879101
+Baku,Azerbaijan,40.3755885,49.8328009,Rio de Janeiro,Brazil,-22.9110137,-43.2093727
+Baku,Azerbaijan,40.3755885,49.8328009,Saint Petersburg,Russia,59.9606739,30.1586551
+Baku,Azerbaijan,40.3755885,49.8328009,Sarajevo,Bosnia and Herzegovina,43.8570713,18.4126147
+Baku,Azerbaijan,40.3755885,49.8328009,Tabriz,Iran,38.0738612,46.2978789
+Baku,Azerbaijan,40.3755885,49.8328009,Tbilisi,Georgia,41.6934591,44.8014495
+Chittagong,Bangladesh,22.333778,91.8344348,Goiânia,Brazil,-16.680882,-49.2532691
+Chittagong,Bangladesh,22.333778,91.8344348,Kunming,China,25.0399353,102.7169061
+Babruysk,Belarus,53.1449683,29.2281209,Anenii Noi District,Moldova,46.9238402,29.2502799
+Babruysk,Belarus,53.1449683,29.2281209,Comrat,Moldova,46.333416,28.6722752
+Babruysk,Belarus,53.1449683,29.2281209,Grozny,Russia,43.3086383,45.7065735
+Babruysk,Belarus,53.1449683,29.2281209,Hengyang,China,26.8971308,112.5666191
+Babruysk,Belarus,53.1449683,29.2281209,Ishim,Russia,56.1092126,69.457152
+Babruysk,Belarus,53.1449683,29.2281209,Kobuleti,Georgia,41.8113601,41.7793202
+Babruysk,Belarus,53.1449683,29.2281209,Kolpino,Russia,56.026581,29.984261
+Babruysk,Belarus,53.1449683,29.2281209,Kostroma,Russia,57.7679158,40.9269141
+Babruysk,Belarus,53.1449683,29.2281209,Luga,Russia,58.735699,29.8475013
+Babruysk,Belarus,53.1449683,29.2281209,Morogoro,Tanzania,-7.0842931,37.4232686
+Babruysk,Belarus,53.1449683,29.2281209,Murom,Russia,55.5792902,42.0527689
+Babruysk,Belarus,53.1449683,29.2281209,Naro-Fominsk,Russia,55.3842784,36.723507
+Babruysk,Belarus,53.1449683,29.2281209,Novomoskovsk,Russia,54.011013,38.290943
+Babruysk,Belarus,53.1449683,29.2281209,Oskemen,Kazakhstan,49.9484438,82.6274791
+Babruysk,Belarus,53.1449683,29.2281209,Petrogradsky (Saint Petersburg),Russia,59.9642342,30.2858201
+Babruysk,Belarus,53.1449683,29.2281209,Rybinsk,Russia,58.0489536,38.8558908
+Babruysk,Belarus,53.1449683,29.2281209,Sokolniki (Moscow),Russia,55.7888168,37.6802525
+Babruysk,Belarus,53.1449683,29.2281209,Syzran,Russia,53.15538,48.474121
+Babruysk,Belarus,53.1449683,29.2281209,Tolyatti,Russia,53.5098845,49.4189187
+Babruysk,Belarus,53.1449683,29.2281209,Ussuriysk,Russia,43.7972447,131.9520752
+Babruysk,Belarus,53.1449683,29.2281209,Vladimir,Russia,56.1288899,40.4075203
+Aalst,Belgium,50.9383226,4.0392147,Gabrovo,Bulgaria,42.9638895,25.2119538
+Aalst,Belgium,50.9383226,4.0392147,Worcester,South Africa,-33.646238,19.445927
+Banja Luka,Bosnia and Herzegovina,44.7720845,17.1917651,Bari,Italy,41.1257843,16.8620293
+Banja Luka,Bosnia and Herzegovina,44.7720845,17.1917651,Belgrade,Serbia,44.8153318,20.4456588
+Banja Luka,Bosnia and Herzegovina,44.7720845,17.1917651,Bitonto,Italy,41.1084971,16.691548
+Banja Luka,Bosnia and Herzegovina,44.7720845,17.1917651,Campobasso,Italy,41.7172648,14.8262267
+Banja Luka,Bosnia and Herzegovina,44.7720845,17.1917651,Kaiserslautern,Germany,49.4432174,7.7689951
+Banja Luka,Bosnia and Herzegovina,44.7720845,17.1917651,Kranj,Slovenia,46.2432913,14.3549353
+Banja Luka,Bosnia and Herzegovina,44.7720845,17.1917651,Kumanovo,North Macedonia,42.135913,21.7185474
+Banja Luka,Bosnia and Herzegovina,44.7720845,17.1917651,Lviv,Ukraine,49.841952,24.0315921
+Banja Luka,Bosnia and Herzegovina,44.7720845,17.1917651,Modi'in-Maccabim-Re'ut,Israel,31.9085744,35.0069297
+Banja Luka,Bosnia and Herzegovina,44.7720845,17.1917651,New Belgrade (Belgrade),Serbia,44.8320282,20.4028412
+Banja Luka,Bosnia and Herzegovina,44.7720845,17.1917651,North Mitrovica,Kosovo,42.8963331,20.865765
+Banja Luka,Bosnia and Herzegovina,44.7720845,17.1917651,Patras,Greece,38.246242,21.7350847
+Banja Luka,Bosnia and Herzegovina,44.7720845,17.1917651,Sremska Mitrovica,Serbia,44.9701654,19.6124132
+Banja Luka,Bosnia and Herzegovina,44.7720845,17.1917651,Zemun (Belgrade),Serbia,44.8999648,20.2862213
+Aquiraz,Brazil,-3.9063117,-38.387504,Frederick,United States,39.2127031,-78.279166
+Aquiraz,Brazil,-3.9063117,-38.387504,São Vicente,Cape Verde,16.8494412,-24.9718792
+Araçariguama,Brazil,-23.4388277,-47.0613084,Binhu (Wuxi),China,31.5445522,120.2531693
+Assis Chateaubriand,Brazil,-24.4054826,-53.5120468,Seixal,Portugal,38.6422246,-9.1072662
+Antonovo,Bulgaria,43.1497923,26.1616683,Beymelek (Demre),Turkey,36.2415874,30.0184496
+Antonovo,Bulgaria,43.1497923,26.1616683,Roccafiorita,Italy,37.9301966,15.2680955
+Abbotsford,Canada,49.0521162,-122.329479,Fukagawa,Japan,43.7234297,142.0540685
+Airdrie,Canada,51.28597,-114.01062,Gwacheon,South Korea,37.4289037,126.9881655
+Airdrie,Canada,51.28597,-114.01062,North Lanarkshire,"Scotland, United Kingdom",55.8830507,-3.9461551
+Boa Vista,Cape Verde,16.099509,-22.8009411,Aljezur,Portugal,37.3151549,-8.8040533
+Boa Vista,Cape Verde,16.099509,-22.8009411,Anadia,Portugal,40.4426833,-8.4359581
+Boa Vista,Cape Verde,16.099509,-22.8009411,Cabeceiras de Basto,Portugal,41.5136392,-7.9878132
+Boa Vista,Cape Verde,16.099509,-22.8009411,Felgueiras,Portugal,41.3648572,-8.1989013
+Boa Vista,Cape Verde,16.099509,-22.8009411,Loulé,Portugal,37.1395485,-8.0232598
+Boa Vista,Cape Verde,16.099509,-22.8009411,Seixal,Portugal,38.6422246,-9.1072662
+Boa Vista,Cape Verde,16.099509,-22.8009411,Zocca,Italy,44.3462404,10.9938171
+Los Andes,Chile,-32.8336867,-70.5981609,Saltillo,Mexico,25.4230425,-100.9927509
+Antofagasta,Chile,-23.6463741,-70.3980033,Split,Croatia,43.5116383,16.4399659
+Antofagasta,Chile,-23.6463741,-70.3980033,Tongling,China,30.9057603,117.6141351
+Antofagasta,Chile,-23.6463741,-70.3980033,Volos,Greece,39.3624833,22.9401864
+Anguo,China,38.4277476,115.3303798,Dongdaemun (Seoul),South Korea,37.5741982,127.0395092
+Anguo,China,38.4277476,115.3303798,Kushima,Japan,31.4649768,131.2282568
+Barban,Croatia,45.064724,14.0161952,Brda,Slovenia,46.0162019,13.5489102
+Beli Manastir,Croatia,45.7697026,18.6058278,Cambridge,United States,42.3656347,-71.1040018
+Beli Manastir,Croatia,45.7697026,18.6058278,Mohács,Hungary,45.9933836,18.6821079
+Baracoa,Cuba,20.3477869,-74.4968647,Roccarainola,Italy,40.971255,14.5610262
+Batabanó,Cuba,22.7177587,-82.2879905,Santa Cruz de Juventino Rosas,Mexico,20.6825364,-100.9586774
+Bayamo,Cuba,20.3734145,-76.6494244,Savona,Italy,44.2334238,8.2525727
+Caibarién,Cuba,22.5243036,-79.4719441,Bloomington,United States,39.1670396,-86.5342881
+Caibarién,Cuba,22.5243036,-79.4719441,Normal,United States,40.5092961,-88.9843937
+Caimito,Cuba,22.9516398,-82.5937751,Barañain,Spain,42.8048344,-1.6810202
+Aabenraa,Denmark,55.0446228,9.4209667,Kaltenkirchen,Germany,53.8371714,9.9614889
+Aabenraa,Denmark,55.0446228,9.4209667,Lohja,Finland,60.2512041,24.0676953
+Aabenraa,Denmark,55.0446228,9.4209667,Ringerike,Norway,60.3274063,10.0217635
+Aabenraa,Denmark,55.0446228,9.4209667,Skagaströnd,Iceland,65.8233244,-20.3005642
+Aabenraa,Denmark,55.0446228,9.4209667,Växjö,Sweden,56.8787183,14.8094385
+Alexandria,Egypt,31.1991806,29.8951716,Alicante,Spain,38.3436365,-0.4881708
+Alexandria,Egypt,31.1991806,29.8951716,Almaty,Kazakhstan,43.2363924,76.9457275
+Alexandria,Egypt,31.1991806,29.8951716,Baltimore,United States,39.2908816,-76.610759
+Alexandria,Egypt,31.1991806,29.8951716,Bratislava,Slovakia,48.1559178,17.1313541
+Alexandria,Egypt,31.1991806,29.8951716,Catania,Italy,37.5023612,15.0873718
+Alexandria,Egypt,31.1991806,29.8951716,Cleveland,United States,41.4996574,-81.6936772
+Alexandria,Egypt,31.1991806,29.8951716,Constanța,Romania,44.1767161,28.6507598
+Alexandria,Egypt,31.1991806,29.8951716,Durban,South Africa,-29.861825,31.009909
+Alexandria,Egypt,31.1991806,29.8951716,Incheon,South Korea,37.456,126.7052
+Alexandria,Egypt,31.1991806,29.8951716,Kazanlak,Bulgaria,42.6191296,25.3933333
+Alexandria,Egypt,31.1991806,29.8951716,Limassol,Cyprus,34.6852901,33.0332657
+Alexandria,Egypt,31.1991806,29.8951716,Novi Sad,Serbia,45.2551338,19.8451756
+Alexandria,Egypt,31.1991806,29.8951716,Odesa,Ukraine,46.4843023,30.7322878
+Alexandria,Egypt,31.1991806,29.8951716,Paphos,Cyprus,34.7743988,32.4231586
+Alexandria,Egypt,31.1991806,29.8951716,Port Louis,Mauritius,-20.1624522,57.5028044
+Alexandria,Egypt,31.1991806,29.8951716,Saint Petersburg,Russia,59.9606739,30.1586551
+Alexandria,Egypt,31.1991806,29.8951716,Shanghai,China,31.2312707,121.4700152
+Alexandria,Egypt,31.1991806,29.8951716,Thessaloniki,Greece,40.6403167,22.9352716
+Abingdon-on-Thames,England,51.6706501,-1.2829759,Argentan,France,48.74289,-0.0223386
+Abingdon-on-Thames,England,51.6706501,-1.2829759,Lucca,Italy,44.0177639,10.45443
+Abingdon-on-Thames,England,51.6706501,-1.2829759,Schongau,Germany,47.8118973,10.8972133
+Abingdon-on-Thames,England,51.6706501,-1.2829759,Sint-Niklaas,Belgium,51.1646685,4.1395124
+Anija,Estonia,59.3790592,25.2883542,Salo,Finland,60.2946985,23.2696461
+Antsla,Estonia,57.8292138,26.5288641,Uusikaupunki,Finland,60.8016507,21.4086143
+Elva,Estonia,58.2233379,26.4131027,Salo,Finland,60.2946985,23.2696461
+Häädemeeste,Estonia,58.0783458,24.4961117,Hankasalmi,Finland,62.3893471,26.4367772
+Häädemeeste,Estonia,58.0783458,24.4961117,Karmøy,Norway,59.2302888,5.1536117
+Häädemeeste,Estonia,58.0783458,24.4961117,Mjölby,Sweden,58.316667,15.133333
+Häädemeeste,Estonia,58.0783458,24.4961117,Salacgrīva (Limbaži),Latvia,57.74424,24.3949818
+Eiði,Faroe Islands,62.2996078,-7.0910428,Arsuk,Greenland,61.175,-48.45
+Eiði,Faroe Islands,62.2996078,-7.0910428,Countryside,"Åland Islands, Finland",60.180454,19.6660272
+Eiði,Faroe Islands,62.2996078,-7.0910428,Herning,Denmark,56.1379757,8.9746623
+Eiði,Faroe Islands,62.2996078,-7.0910428,Holmestrand,Norway,59.5591252,10.1531702
+Eiði,Faroe Islands,62.2996078,-7.0910428,Husby,Germany,54.7659613,9.5785877
+Eiði,Faroe Islands,62.2996078,-7.0910428,Kangasala,Finland,61.4631266,24.0734703
+Eiði,Faroe Islands,62.2996078,-7.0910428,Siglufjörður,Iceland,66.1504928,-18.9096279
+Eiði,Faroe Islands,62.2996078,-7.0910428,Vänersborg,Sweden,58.3811988,12.3226877
+Ähtäri,Finland,62.5499772,24.0702272,Audru (Pärnu),Estonia,58.3340252,24.000113
+Ähtäri,Finland,62.5499772,24.0702272,Dujiangyan,China,30.9965254,103.6142723
+Ähtäri,Finland,62.5499772,24.0702272,Lycksele,Sweden,64.6,18.166667
+Abbeville,France,50.1060835,1.8337029,Argos,Greece,37.6349668,22.7285084
+Abbeville,France,50.1060835,1.8337029,Burgess Hill,"England, United Kingdom",50.9575365,-0.1332853
+Abasha,Georgia (country),42.2049284,42.2033321,Jevíčko,Czech Republic,49.6324875,16.7118442
+Akhaltsikhe,Georgia (country),41.6395128,42.9859225,Ardahan,Turkey,41.0372501,42.7462189
+Akhmeta,Georgia (country),42.0341864,45.2108579,Bilhorod-Dnistrovskyi,Ukraine,46.1909823,30.345784
+Akhmeta,Georgia (country),42.0341864,45.2108579,Ialoveni District,Moldova,46.8661311,28.8136145
+Akhmeta,Georgia (country),42.0341864,45.2108579,Panevėžys District Municipality,Lithuania,54.6701821,25.1855692
+Akhmeta,Georgia (country),42.0341864,45.2108579,Akhmeta,Czech Republic,42.0341864,45.2108579
+Aachen,Germany,50.776351,6.083862,Arlington County,United States,38.8769326,-77.0893094
+Aachen,Germany,50.776351,6.083862,Cape Town,South Africa,-33.9288301,18.4172197
+Aachen,Germany,50.776351,6.083862,Chernihiv,Ukraine,51.272593,31.7417235
+Aachen,Germany,50.776351,6.083862,Halifax,"England, United Kingdom",53.7229229,-1.8604874
+Aachen,Germany,50.776351,6.083862,Montebourg,France,49.4882989,-1.380821
+Aachen,Germany,50.776351,6.083862,Naumburg,Germany,51.1525648,11.8099186
+Aachen,Germany,50.776351,6.083862,Ningbo,China,29.8622194,121.6203873
+Aachen,Germany,50.776351,6.083862,Reims,France,49.2577886,4.031926
+Aachen,Germany,50.776351,6.083862,Sarıyer,Turkey,41.1685803,29.0572623
+Aachen,Germany,50.776351,6.083862,Toledo,Spain,39.8558913,-4.024265
+Agia Paraskevi,Greece,38.0066759,23.8226942,Geroskipou,Cyprus,34.7611753,32.4526968
+Agia Paraskevi,Greece,38.0066759,23.8226942,Saint-Brieuc,France,48.5141134,-2.7603283
+Ábrahámhegy,Hungary,46.8147826,17.5714996,Dobruška,Czech Republic,50.2921062,16.1605457
+Ajka,Hungary,47.1056579,17.5587276,Cristuru Secuiesc,Romania,46.2886141,25.0305249
+Ajka,Hungary,47.1056579,17.5587276,Donghai County,China,34.5431964,118.7474407
+Ajka,Hungary,47.1056579,17.5587276,Rovaniemi,Finland,66.5025537,25.7303912
+Ajka,Hungary,47.1056579,17.5587276,Unna,Germany,51.5348835,7.689014
+Ajka,Hungary,47.1056579,17.5587276,Weiz,Austria,47.2174206,15.6221694
+Akranes,Iceland,64.3170806,-22.0833512,Bamble,Norway,59.0180854,9.5443135
+Akranes,Iceland,64.3170806,-22.0833512,Närpes,Finland,62.4779756,21.336676
+Akranes,Iceland,64.3170806,-22.0833512,Qaqortoq,Greenland,60.718202,-46.0385214
+Akranes,Iceland,64.3170806,-22.0833512,Sørvágur,Faroe Islands,62.0707453,-7.3060468
+Akranes,Iceland,64.3170806,-22.0833512,Tønder,Denmark,54.9380637,8.8629408
+Akranes,Iceland,64.3170806,-22.0833512,Västervik,Sweden,57.7594186,16.6385035
+Agra,India,27.1752554,78.0098161,Petra,Jordan,30.3258363,35.4745669
+Agra,India,27.1752554,78.0098161,Samarkand,Uzbekistan,39.6550017,66.9756954
+Agra,India,27.1752554,78.0098161,Tempe,United States,33.4255117,-111.940016
+Ambon,Indonesia,-3.6959434,128.178785,Darwin,Australia,-12.46044,130.8410469
+Ambon,Indonesia,-3.6959434,128.178785,Vlissingen,Netherlands,51.4943387,3.4150058
+Balikpapan,Indonesia,-1.2398711,116.8593379,Yokohama,Japan,35.4503381,139.6343802
+Abadan,Iran,30.3636097,48.2591475,Taormina,Italy,37.8512218,15.2830191
+Bostanabad,Iran,37.8429496,46.8339774,Konya,Turkey,37.872734,32.4924376
+Delijan,Iran,33.9880486,50.6862901,Dilijan,Armenia,40.7417126,44.872221
+Gorgan,Iran,36.8392776,54.4320858,Aktau,Kazakhstan,43.6353364,51.168222
+Gorgan,Iran,36.8392776,54.4320858,Samsun,Turkey,41.2303557,35.9683338
+Ankawa,Iraq,36.2325997,43.9972173,Sterling Heights,United States,42.5803122,-83.0302033
+Baghdad,Iraq,33.3061701,44.3872213,Cairo,Egypt,30.0443879,31.2357257
+Baghdad,Iraq,33.3061701,44.3872213,Nishapur,Iran,36.2105604,58.7922291
+Baghdad,Iraq,33.3061701,44.3872213,Pyongyang,North Korea,39.0167979,125.7473609
+Baghdad,Iraq,33.3061701,44.3872213,Tehran,Iran,35.6892523,51.3896004
+Abano Terme,Italy,45.3603142,11.7897833,Bad Füssing,Germany,48.3506733,13.3095441
+Abano Terme,Italy,45.3603142,11.7897833,Lipik,Croatia,45.4134223,17.1634285
+Abano Terme,Italy,45.3603142,11.7897833,Molos-Agios Konstantinos,Greece,38.808727,22.6449927
+Abano Terme,Italy,45.3603142,11.7897833,Shibukawa,Japan,36.4894606,139.0001287
+Acquaviva delle Fonti,Italy,40.897829,16.842487,San Miguel de Allende,Mexico,20.9130501,-100.73566
+Ageo,Japan,35.9774082,139.5930504,Lockyer Valley,Australia,-27.680931,152.199498
+Akabira,Japan,43.5578505,142.0440317,Kaga,Japan,36.3027624,136.3151159
+Akabira,Japan,43.5578505,142.0440317,Samcheok,South Korea,37.4498745,129.1652969
+Akabira,Japan,43.5578505,142.0440317,Yueyang,China,29.060703,113.348653
+Amman,Jordan,31.9515694,35.9239625,Ankara,Turkey,39.9207759,32.8540497
+Amman,Jordan,31.9515694,35.9239625,Astana,Kazakhstan,51.1282205,71.4306682
+Amman,Jordan,31.9515694,35.9239625,Bucharest,Romania,44.4361414,26.102684
+Amman,Jordan,31.9515694,35.9239625,Cairo,Egypt,30.0443879,31.2357257
+Amman,Jordan,31.9515694,35.9239625,Chicago,United States,41.8755616,-87.6244212
+Amman,Jordan,31.9515694,35.9239625,Cincinnati,United States,39.1014537,-84.5124602
+Amman,Jordan,31.9515694,35.9239625,Hebron,Palestine,31.5336282,35.0979762
+Amman,Jordan,31.9515694,35.9239625,Islamabad,Pakistan,33.6938118,73.0651511
+Amman,Jordan,31.9515694,35.9239625,Istanbul,Turkey,41.006381,28.9758715
+Amman,Jordan,31.9515694,35.9239625,Mostar,Bosnia and Herzegovina,43.3435855,17.8076584
+Amman,Jordan,31.9515694,35.9239625,Paphos,Cyprus,34.7743988,32.4231586
+Amman,Jordan,31.9515694,35.9239625,San Francisco,United States,37.7879363,-122.4075201
+Amman,Jordan,31.9515694,35.9239625,Sofia,Bulgaria,42.6977028,23.3217359
+Amman,Jordan,31.9515694,35.9239625,Tunis,Tunisia,33.8439408,9.400138
+Amman,Jordan,31.9515694,35.9239625,Yerevan,Armenia,40.1777112,44.5126233
+Bomet,Kenya,-0.7196054,35.2399625,Milwaukee,United States,43.0386475,-87.9090751
+Bura,Kenya,-0.6451848,39.2962938,Newburyport,United States,42.8116592,-70.8719271
+Eldoret,Kenya,0.5198329,35.2715481,Ithaca,United States,42.4374175,-76.5483724
+Eldoret,Kenya,0.5198329,35.2715481,Minneapolis,United States,44.9772995,-93.2654692
+Eldoret,Kenya,0.5198329,35.2715481,Portsmouth,United States,36.8320081,-76.297699
+Garissa Township,Kenya,-0.3234103,39.7358028,Portland,United States,45.5202471,-122.674194
+Kabarnet,Kenya,0.496524,35.743139,Hürth,Germany,50.8807379,6.876568
+Deçan,Kosovo,42.5402266,20.2882372,Plav,Montenegro,42.5968969,19.9441846
+Deçan,Kosovo,42.5402266,20.2882372,Ulcinj,Montenegro,41.926012,19.2055563
+Aizkraukle,Latvia,56.6010778,25.2542544,Biržai,Lithuania,56.1999121,24.7571107
+Aizkraukle,Latvia,56.6010778,25.2542544,Eppstein,Germany,50.155,8.3803
+Aizkraukle,Latvia,56.6010778,25.2542544,Kiskunhalas,Hungary,46.4304454,19.4812571
+Aizkraukle,Latvia,56.6010778,25.2542544,Slavutych,Ukraine,51.5201397,30.7562301
+Aizkraukle,Latvia,56.6010778,25.2542544,Tczew,Poland,54.0869532,18.8000293
+Aizkraukle,Latvia,56.6010778,25.2542544,Thale,Germany,51.7527606,11.037722
+Akmenė,Lithuania,56.2460515,22.7545972,Dobele,Latvia,56.6257485,23.277275
+Akmenė,Lithuania,56.2460515,22.7545972,Konin,Poland,52.2301933,18.2521112
+Akmenė,Lithuania,56.2460515,22.7545972,Mariupol,Ukraine,47.0957648,37.5499621
+Akmenė,Lithuania,56.2460515,22.7545972,Mukawa,Japan,42.5748177,141.9268704
+Akmenė,Lithuania,56.2460515,22.7545972,Ölfus,Iceland,63.9823085,-21.4050433
+Akmenė,Lithuania,56.2460515,22.7545972,Rustavi,Georgia,41.54309,45.0112804
+Akmenė,Lithuania,56.2460515,22.7545972,Shostka,Ukraine,51.864355,33.4728542
+Akmenė,Lithuania,56.2460515,22.7545972,Skhidnytsia,Ukraine,49.2275955,23.3502631
+Akmenė,Lithuania,56.2460515,22.7545972,Viru-Nigula,Estonia,59.4456872,26.6927388
+Beckerich,Luxembourg,49.7307067,5.8830092,Iváncsa,Hungary,47.1473327,18.8311498
+Bertrange,Luxembourg,49.6106029,6.0501598,Santa Maria Nuova,Italy,43.49406,13.311672
+Bettembourg,Luxembourg,49.5173351,6.0966536,Flaibano,Italy,46.0583326,12.9836421
+Bettembourg,Luxembourg,49.5173351,6.0966536,Valpaços,Portugal,41.6067883,-7.3108525
+Bettendorf,Luxembourg,49.8756671,6.2171675,Vila Pouca de Aguiar,Portugal,41.5007614,-7.6442868
+Bourscheid,Luxembourg,49.9099274,6.0645251,Burscheid,Germany,51.0824722,7.1212314
+Clervaux,Luxembourg,50.0547912,6.0275511,Horezu,Romania,45.1468453,23.9880582
+Colmar-Berg,Luxembourg,49.811143,6.0910235,Weilburg,Germany,50.4847448,8.2659245
+Consdorf,Luxembourg,49.7798323,6.3382466,Nazaré,Portugal,39.6029108,-9.0701572
+Beaufort,Malaysia,5.2911244,115.672474,Beaufort,United States,35.469331,-76.8927522
+Ipoh,Malaysia,4.5986817,101.0900236,Fukuoka,Japan,33.6251241,130.6180016
+Johor Bahru,Malaysia,1.4581986,103.7649059,Changzhou,China,31.8122623,119.9691539
+Johor Bahru,Malaysia,1.4581986,103.7649059,Istanbul,Turkey,41.006381,28.9758715
+Johor Bahru,Malaysia,1.4581986,103.7649059,Kuching,Malaysia,1.5597561,110.345397
+Attard,Malta,35.8909172,14.4430093,Élancourt,France,48.7681182,1.949352
+Attard,Malta,35.8909172,14.4430093,Pieve Emanuele,Italy,45.3559126,9.2020722
+Birkirkara,Malta,35.8994577,14.4649552,Grosseto,Italy,42.7751102,11.2878044
+Acámbaro,Mexico,20.0708475,-100.7447445,Greenfield,United States,42.5876342,-72.6002068
+Acámbaro,Mexico,20.0708475,-100.7447445,Laredo,United States,27.5079211,-99.5069834
+Anenii Noi,Moldova,46.8788495,29.229104,Korosten,Ukraine,50.9491068,28.6417552
+Bălți,Moldova,47.7623952,27.9286022,Arad,Israel,31.2599717,35.1951218
+Bălți,Moldova,47.7623952,27.9286022,Białystok,Poland,53.132398,23.1591679
+Bălți,Moldova,47.7623952,27.9286022,Chernivtsi,Ukraine,48.2864702,25.9376532
+Bălți,Moldova,47.7623952,27.9286022,Comrat,Moldova,46.333416,28.6722752
+Bălți,Moldova,47.7623952,27.9286022,İzmir,Turkey,38.4192537,27.128469
+Bălți,Moldova,47.7623952,27.9286022,Khmelnytskyi,Ukraine,49.268624,27.0635998
+Bălți,Moldova,47.7623952,27.9286022,Lakeland,United States,28.0394654,-81.9498042
+Bălți,Moldova,47.7623952,27.9286022,Larissa,Greece,39.6383092,22.4160706
+Bălți,Moldova,47.7623952,27.9286022,Livny,Russia,52.4253859,37.6089
+Bălți,Moldova,47.7623952,27.9286022,Miercurea Ciuc,Romania,46.3614042,25.8026675
+Bălți,Moldova,47.7623952,27.9286022,Mohyliv-Podilskyi,Ukraine,48.442544,27.7991124
+Bălți,Moldova,47.7623952,27.9286022,Narva,Estonia,59.3767458,28.1919315
+Bălți,Moldova,47.7623952,27.9286022,Nizhny Novgorod,Russia,56.1301421,44.1364688
+Bălți,Moldova,47.7623952,27.9286022,Orsha,Belarus,54.5107734,30.42944
+Bălți,Moldova,47.7623952,27.9286022,Płock,Poland,52.5353471,19.7136301
+Bălți,Moldova,47.7623952,27.9286022,Podolsk,Russia,55.4308841,37.5453056
+Bălți,Moldova,47.7623952,27.9286022,Polotsk,Belarus,55.4854656,28.7682339
+Bălți,Moldova,47.7623952,27.9286022,Pushkin,Russia,59.6878375,30.3407143
+Bălți,Moldova,47.7623952,27.9286022,Rechytsa,Belarus,52.3717518,30.3860239
+Bălți,Moldova,47.7623952,27.9286022,Stryi,Ukraine,49.255875,23.8530863
+Bălți,Moldova,47.7623952,27.9286022,Vitebsk,Belarus,55.1930197,30.2070437
+Bălți,Moldova,47.7623952,27.9286022,Western AO (Moscow),Russia,-31.7742241,115.8258511
+Bălți,Moldova,47.7623952,27.9286022,Wuzhong,China,37.4922984,106.5151923
+Bălți,Moldova,47.7623952,27.9286022,Zapadnoye Degunino (Moscow),Russia,55.8732647,37.5181287
+Basarabeasca,Moldova,46.3074363,28.9595174,Smalyavichy,Belarus,54.0299337,28.089752
+Bar,Montenegro,42.0979745,19.0954528,Bor,Serbia,44.0778456,22.0991779
+Bar,Montenegro,42.0979745,19.0954528,Bornova,Turkey,38.4661896,27.2191942
+Bar,Montenegro,42.0979745,19.0954528,Hongkou (Shanghai),China,31.2667113,121.4793525
+Bar,Montenegro,42.0979745,19.0954528,Küçükkuyu (Ayvacık),Turkey,39.5465429,26.6045282
+Bar,Montenegro,42.0979745,19.0954528,Kula,Serbia,45.6101491,19.5301174
+Bar,Montenegro,42.0979745,19.0954528,Kursk,Russia,51.7309249,36.1923123
+Bar,Montenegro,42.0979745,19.0954528,Kragujevac,Serbia,44.0131786,20.9196353
+Bar,Montenegro,42.0979745,19.0954528,Mali Iđoš,Serbia,45.7067012,19.666121
+Bar,Montenegro,42.0979745,19.0954528,Požarevac,Serbia,44.6199926,21.1854
+Bar,Montenegro,42.0979745,19.0954528,Vodnjan,Croatia,44.9603387,13.8497802
+Agadir,Morocco,30.4205162,-9.5838532,Gaza City,Palestine,31.5361203,34.4613587
+Agadir,Morocco,30.4205162,-9.5838532,Hangzhou,China,30.2489634,120.2052342
+Agadir,Morocco,30.4205162,-9.5838532,Pleven,Bulgaria,43.4809895,24.6060665
+Agadir,Morocco,30.4205162,-9.5838532,Portsmouth,United States,36.8320081,-76.297699
+Ahfir,Morocco,34.955281,-2.100793,Hérouville-Saint-Clair,France,49.2031097,-0.3353513
+Ashburton,New Zealand,-43.9024396,171.7503327,Ashburton,"England, United Kingdom",50.5267352,-3.755985
+Ashburton,New Zealand,-43.9024396,171.7503327,Minamiuonuma,Japan,37.0655723,138.8760989
+Ashburton,New Zealand,-43.9024396,171.7503327,Pulaski,United States,37.2314232,-89.1183427
+Ashburton,New Zealand,-43.9024396,171.7503327,Puyang,China,35.7631348,115.0234071
+Altagracia,Nicaragua,11.5174356,-85.5122366,Bainbridge Island,United States,47.6476668,-122.5461103
+Altagracia,Nicaragua,11.5174356,-85.5122366,Herne,Germany,51.5380394,7.219985
+Bitola,North Macedonia,41.0316005,21.3302511,Bayside,Australia,-33.9645775,151.1990914
+Bitola,North Macedonia,41.0316005,21.3302511,Bursa,Turkey,40.1825734,29.0675039
+Bitola,North Macedonia,41.0316005,21.3302511,Épinal,France,48.1747684,6.4503643
+Bitola,North Macedonia,41.0316005,21.3302511,Kranj,Slovenia,46.2432913,14.3549353
+Bitola,North Macedonia,41.0316005,21.3302511,Osijek,Croatia,45.5548793,18.6953685
+Bitola,North Macedonia,41.0316005,21.3302511,Pleven,Bulgaria,43.4809895,24.6060665
+Bitola,North Macedonia,41.0316005,21.3302511,Požarevac,Serbia,44.6199926,21.1854
+Bitola,North Macedonia,41.0316005,21.3302511,Rijeka,Croatia,45.3267976,14.442208
+Bitola,North Macedonia,41.0316005,21.3302511,Stari Grad (Belgrade),Serbia,44.8167896,20.4596454
+Bitola,North Macedonia,41.0316005,21.3302511,Trelleborg,Sweden,55.37592,13.1461522
+Bitola,North Macedonia,41.0316005,21.3302511,Veliko Tarnovo,Bulgaria,43.0820584,25.6321312
+Agios Amvrosios,Northern Cyprus,35.3394007,33.5831724,Kartal,Turkey,40.88858,29.1856536
+Agios Epiktitos,Northern Cyprus,35.3213447,33.3906576,Belek,Turkey,36.8633459,31.0578184
+Akanthou,Northern Cyprus,35.3726129,33.7533656,Altınova,Turkey,40.6963485,29.5099438
+Akanthou,Northern Cyprus,35.3726129,33.7533656,Sumqayit,Azerbaijan,40.703935,49.657693
+Akanthou,Northern Cyprus,35.3726129,33.7533656,Tarsus,Turkey,36.9164834,34.895149
+Famagusta,Northern Cyprus,35.1205261,33.9387919,Antalya,Turkey,36.8865728,30.7030242
+Famagusta,Northern Cyprus,35.1205261,33.9387919,İzmir,Turkey,38.4192537,27.128469
+Galateia,Northern Cyprus,35.4221242,34.0693265,Bağcılar,Turkey,41.034547,28.8567558
+Galateia,Northern Cyprus,35.4221242,34.0693265,Osmangazi,Turkey,40.7992416,29.3801162
+Gönyeli,Northern Cyprus,35.216417,33.3058171,Kızılcahamam,Turkey,40.4700945,32.6528555
+Gönyeli,Northern Cyprus,35.216417,33.3058171,Sarıyer,Turkey,41.1685803,29.0572623
+Karavas,Northern Cyprus,35.3394085,33.1960746,Bornova,Turkey,38.4661896,27.2191942
+Komi Kebir,Northern Cyprus,35.4104388,33.9935574,Kaymaklı,Turkey,39.3976815,38.7859161
+Kyrenia,Northern Cyprus,35.3396291,33.3205287,Adana,Turkey,36.9863599,35.3252861
+Kyrenia,Northern Cyprus,35.3396291,33.3205287,Çankaya,Turkey,39.8853321,32.8554966
+Kyrenia,Northern Cyprus,35.3396291,33.3205287,Mudanya,Turkey,40.3752582,28.8837929
+Kyrenia,Northern Cyprus,35.3396291,33.3205287,Sector 4 (Bucharest),Romania,44.4166914,26.1009458
+Kythrea,Northern Cyprus,35.2476457,33.4806933,Gebze,Turkey,40.8006696,29.431767
+Lapithos,Northern Cyprus,35.3387318,33.1722789,Büyükçekmece,Turkey,41.021654,28.579757
+Lapithos,Northern Cyprus,35.3387318,33.1722789,Kemer,Turkey,36.6013823,30.5638561
+Lefka,Northern Cyprus,35.1137814,32.8495971,Bergama,Turkey,39.1189476,27.1773642
+Lefka,Northern Cyprus,35.1137814,32.8495971,Elmadağ,Turkey,39.9173198,33.2343945
+Lefka,Northern Cyprus,35.1137814,32.8495971,Malatya,Turkey,38.4820156,38.1035355
+Lefka,Northern Cyprus,35.1137814,32.8495971,Silifke,Turkey,36.3778166,33.9260372
+Lefkoniko,Northern Cyprus,35.2605334,33.7321988,Yalova,Turkey,40.5795422,29.1687005
+Morphou,Northern Cyprus,35.1993042,32.9928829,Beşiktaş,Turkey,41.0428465,29.0075283
+Morphou,Northern Cyprus,35.1993042,32.9928829,Çekmeköy,Turkey,41.0351579,29.1739149
+Morphou,Northern Cyprus,35.1993042,32.9928829,Keçiören,Turkey,39.977713,32.8669801
+Morphou,Northern Cyprus,35.1993042,32.9928829,Kırşehir,Turkey,39.3303066,34.1265884
+Morphou,Northern Cyprus,35.1993042,32.9928829,Manisa,Turkey,38.8574402,28.0565711
+Morphou,Northern Cyprus,35.1993042,32.9928829,Zeytinburnu,Turkey,40.9898653,28.9037467
+North Nicosia,Northern Cyprus,35.2116524,33.3311878,Ankara,Turkey,39.9207759,32.8540497
+North Nicosia,Northern Cyprus,35.2116524,33.3311878,Gaziantep,Turkey,37.0628317,37.3792617
+North Nicosia,Northern Cyprus,35.2116524,33.3311878,Istanbul,Turkey,41.006381,28.9758715
+Pergamos,Northern Cyprus,35.0431635,33.708323,Karaman,Turkey,37.1796848,33.3383665
+Pergamos,Northern Cyprus,35.0431635,33.708323,Kepez,Turkey,36.9176296,30.7149914
+Pergamos,Northern Cyprus,35.0431635,33.708323,Sarıyer,Turkey,41.1685803,29.0572623
+Rizokarpaso,Northern Cyprus,35.5977395,34.3806708,Ankara,Turkey,39.9207759,32.8540497
+Rizokarpaso,Northern Cyprus,35.5977395,34.3806708,Ardeşen,Turkey,41.191875,40.9894178
+Rizokarpaso,Northern Cyprus,35.5977395,34.3806708,Pendik,Turkey,40.8768715,29.2349672
+Rizokarpaso,Northern Cyprus,35.5977395,34.3806708,Tatvan,Turkey,38.4931961,42.2878112
+Rizokarpaso,Northern Cyprus,35.5977395,34.3806708,Yasamal (Baku),Azerbaijan,40.3732763,49.8139975
+Trikomo,Northern Cyprus,35.285677,33.8930603,Mamak,Turkey,39.9317489,32.9108711
+Trikomo,Northern Cyprus,35.285677,33.8930603,Pendik,Turkey,40.8768715,29.2349672
+Trikomo,Northern Cyprus,35.285677,33.8930603,Samsun,Turkey,41.2303557,35.9683338
+Vatili,Northern Cyprus,35.1337935,33.6557314,Osmaniye,Turkey,37.2517882,36.2993502
+Yialousa,Northern Cyprus,35.5343185,34.188649,Sincan,Turkey,39.963995,32.5856329
+Ålesund,Norway,62.4802363,6.5550739,Akureyri,Iceland,65.6839036,-18.1121756
+Ålesund,Norway,62.4802363,6.5550739,Borgo a Mozzano,Italy,43.978948,10.545703
+Ålesund,Norway,62.4802363,6.5550739,Lahti,Finland,60.982628,25.6613418
+Ålesund,Norway,62.4802363,6.5550739,Randers,Denmark,56.4617545,10.0371476
+Ålesund,Norway,62.4802363,6.5550739,Peterhead,"Scotland, United Kingdom",57.5052909,-1.7813194
+Ålesund,Norway,62.4802363,6.5550739,Tacoma,United States,47.2455013,-122.438329
+Ålesund,Norway,62.4802363,6.5550739,Västerås,Sweden,59.6110992,16.5463679
+Abbottabad,Pakistan,34.1436136,73.2132747,Kashgar,China,39.4665981,75.9900135
+Abbottabad,Pakistan,34.1436136,73.2132747,Puerto Varas,Paraguay,-41.3951937,-73.2146931
+Faisalabad,Pakistan,31.4220558,73.0923253,Qingdao,China,36.0663249,120.3777659
+Gujar Khan,Pakistan,33.2590018,73.3076163,Redditch,"England, United Kingdom",52.3057655,-1.9417444
+Gwadar,Pakistan,25.1479816,62.3254553,Puyang,China,35.7631348,115.0234071
+Hyderabad,Pakistan,25.3868287,68.3714971,Toledo,United States,41.6529143,-83.5378173
+Aida Camp,Palestine,37.7399498,-0.8519419,Nogent-sur-Oise,France,49.2720766,2.469591
+Aida Camp,Palestine,37.7399498,-0.8519419,Strasbourg,France,48.584614,7.7507127
+Al-Am'ari,Palestine,32.3120071,34.8670828,Stains,France,48.9565669,2.3825154
+Aleksandrów Łódzki,Poland,51.8196533,19.3035375,Krāslava,Latvia,55.895206,27.1619304
+Aleksandrów Łódzki,Poland,51.8196533,19.3035375,Ossiach,Austria,46.6758288,13.9823604
+Aleksandrów Łódzki,Poland,51.8196533,19.3035375,Puget-Ville,France,43.2848554,6.138408
+Abrantes,Portugal,39.4630269,-8.1975227,Hitoyoshi,Japan,32.2056644,130.7601392
+Abrantes,Portugal,39.4630269,-8.1975227,Parthenay,France,46.6481266,-0.2472687
+Abrantes,Portugal,39.4630269,-8.1975227,Ribeira Brava,Cape Verde,16.5805775,-24.0887328
+Aiud,Romania,46.3109471,23.7187065,Cherepovets,Russia,59.1242181,37.9123351
+Aiud,Romania,46.3109471,23.7187065,Cusset,France,46.1324239,3.4602736
+Aiud,Romania,46.3109471,23.7187065,Dingelstädt,Germany,51.3157508,10.3209989
+Aiud,Romania,46.3109471,23.7187065,Gyomaendrőd,Hungary,46.9358032,20.8260916
+Aiud,Romania,46.3109471,23.7187065,Megara,Greece,37.9965887,23.3445017
+Aiud,Romania,46.3109471,23.7187065,Ponte de Sor,Portugal,39.2519303,-8.008997
+Aiud,Romania,46.3109471,23.7187065,Siklós,Hungary,45.8521446,18.2983821
+Aiud,Romania,46.3109471,23.7187065,Soltvadkert,Hungary,46.5820205,19.3942728
+Aleksin,Russia,54.5028103,37.0667213,Saky,Ukraine,45.1319466,33.6001281
+Aleksin,Russia,54.5028103,37.0667213,Salihorsk,Belarus,52.7840567,27.5420336
+Aleksin,Russia,54.5028103,37.0667213,Serpukhov,Russia,54.9155247,37.4195533
+Aleksin,Russia,54.5028103,37.0667213,Tivat,Montenegro,42.4303762,18.6988104
+Aleksin,Russia,54.5028103,37.0667213,Veľký Krtíš,Slovakia,48.2093428,19.3490365
+Aleksin,Russia,54.5028103,37.0667213,Yevpatoria,Ukraine,45.1907635,33.3679049
+Aberdeen,Scotland,57.1482429,-2.0928095,Bulawayo,Zimbabwe,-20.1560599,28.5887063
+Aberdeen,Scotland,57.1482429,-2.0928095,Clermont-Ferrand,France,45.7774551,3.0819427
+Aberdeen,Scotland,57.1482429,-2.0928095,Regensburg,Germany,49.0195333,12.0974869
+Aberdeen,Scotland,57.1482429,-2.0928095,Stavanger,Norway,58.9699675,5.7318101
+Aberdour,Scotland,56.0536974,-3.3019614,Corte Franca,Italy,45.6374172,10.0064681
+Abernethy,Scotland,56.3327064,-3.31157,Grisy-Suisnes,France,48.6851555,2.6654299
+Aboyne,Scotland,57.0765835,-2.7791521,Martignas-sur-Jalle,France,44.8405364,-0.7761489
+Airdrie,Scotland,55.8661181,-3.9804785,Stanley,Falkland Islands,-51.6930616,-57.856525
+Ada,Serbia,45.7967511,20.1330959,Bogyiszló,Hungary,46.3832444,18.8166969
+Ada,Serbia,45.7967511,20.1330959,Budakalász,Hungary,47.6192785,19.0468565
+Ada,Serbia,45.7967511,20.1330959,Inárcs,Hungary,47.260939,19.3291422
+Ada,Serbia,45.7967511,20.1330959,Joseni,Romania,46.7008796,25.5039123
+Ada,Serbia,45.7967511,20.1330959,Makó,Hungary,46.2150438,20.4751022
+Ada,Serbia,45.7967511,20.1330959,Nemesnádudvar,Hungary,46.3392074,19.0521601
+Ada,Serbia,45.7967511,20.1330959,Újbuda (Budapest),Hungary,47.4820371,19.0486675
+Andovce,Slovakia,47.9950053,18.1042136,Nagykovácsi,Hungary,47.5762363,18.882064
+Andovce,Slovakia,47.9950053,18.1042136,Szákszend,Hungary,47.5502393,18.1694103
+Ajdovščina,Slovenia,45.8885557,13.9048561,Jurong,China,31.9478237,119.1633971
+Bled,Slovenia,46.3684202,14.1100595,Brixen,Italy,46.716413,11.657792
+Bled,Slovenia,46.3684202,14.1100595,Doberdò del Lago,Italy,45.8446301,13.5401419
+Bled,Slovenia,46.3684202,14.1100595,Henley-on-Thames,"England, United Kingdom",51.5375786,-0.9050287
+Bled,Slovenia,46.3684202,14.1100595,Velden am Wörther See,Austria,46.6151882,14.0450583
+Bled,Slovenia,46.3684202,14.1100595,Vračar (Belgrade),Serbia,44.7975507,20.4671709
+Bergrivier,South Africa,-33.1463909,18.8641155,Heist-op-den-Berg,Belgium,51.0759905,4.7286753
+Bloemfontein,South Africa,-29.116395,26.215496,Bhubaneswar,India,20.2602964,85.8394521
+Bloemfontein,South Africa,-29.116395,26.215496,Nanjing,China,32.0438284,118.7788631
+Andong,South Korea,36.5634886,128.7260798,Corinth,Greece,37.9385413,22.9273768
+Andong,South Korea,36.5634886,128.7260798,Cusco,Peru,-13.5170887,-71.9785356
+Andong,South Korea,36.5634886,128.7260798,Pingdingshan,China,33.7419956,113.3002154
+Andong,South Korea,36.5634886,128.7260798,Sagae,Japan,38.3808731,140.2759709
+Andong,South Korea,36.5634886,128.7260798,Xi'an,China,34.261004,108.9423363
+Adeje,Spain,28.1219416,-16.7241893,Caracas,Venezuela,10.5060934,-66.9146008
+Adeje,Spain,28.1219416,-16.7241893,Unterhaching,Germany,48.0662249,11.6102245
+Alingsås,Sweden,57.9299658,12.5329678,Kartung,Gambia,48.7760646,8.1724003
+Alingsås,Sweden,57.9299658,12.5329678,Mont-de-Marsan,France,43.8911318,-0.500972
+Alingsås,Sweden,57.9299658,12.5329678,Ocotal,Nicaragua,13.6333171,-86.476387
+Alingsås,Sweden,57.9299658,12.5329678,Lillestrøm,Norway,59.9155396,11.2170354
+Alingsås,Sweden,57.9299658,12.5329678,Tårnby,Denmark,55.6246457,12.6006252
+Aarau,Switzerland,47.3927146,8.0444448,Neuchâtel,Switzerland,46.9895828,6.9292641
+Aarau,Switzerland,47.3927146,8.0444448,Reutlingen,Germany,48.4919508,9.2114144
+Acquarossa,Switzerland,46.4550268,8.9422833,Presidente Franco,Paraguay,-25.5651763,-54.6156341
+Affoltern im Emmental,Switzerland,47.0653533,7.7341485,Hartmanice,Czech Republic,49.1703098,13.4548124
+Changhua,Taiwan,24.0755667,120.5444667,Muncie,United States,40.1936892,-85.3865271
+Changhua,Taiwan,24.0755667,120.5444667,San Gabriel,United States,34.0990995,-118.1085554
+Aryanah,Tunisia,36.8587351,10.188232,Gaziantep,Turkey,37.0628317,37.3792617
+Aryanah,Tunisia,36.8587351,10.188232,Salé,Morocco,34.044889,-6.814017
+Béja,Tunisia,36.7236755,9.185382,Beja,Portugal,38.0154479,-7.8650368
+Adapazarı,Turkey,40.7755214,30.4020295,Klina,Kosovo,42.6179925,20.57611
+Adapazarı,Turkey,40.7755214,30.4020295,Louisville,United States,38.2542376,-85.759407
+Alchevsk,Ukraine,48.4701987,38.8010178,Chystiakove,Ukraine,48.0261217,38.618137
+Alchevsk,Ukraine,48.4701987,38.8010178,Dąbrowa Górnicza,Poland,50.3308692,19.2078918
+Alchevsk,Ukraine,48.4701987,38.8010178,Dunaújváros,Hungary,46.9649048,18.9405047
+Alchevsk,Ukraine,48.4701987,38.8010178,Feodosia,Ukraine,45.033669,35.3753628
+Bà Rịa–Vũng Tàu,Vietnam,10.3496725,107.0860877,Padang,Indonesia,-0.9247587,100.3632561
+Bắc Ninh,Vietnam,21.3282166,106.4625257,Cheb,Czech Republic,50.0793511,12.3703526
+Biên Hòa,Vietnam,10.9141108,106.8917166,Gimhae,South Korea,35.2310947,128.8908228
+Bình Dương,Vietnam,11.1826157,106.6738179,Daejeon,South Korea,36.3497007,127.3849016
+Cần Thơ,Vietnam,10.0362046,105.7872656,Kaposvár,Hungary,46.3564692,17.7886886
+Cần Thơ,Vietnam,10.0362046,105.7872656,Riverside,United States,33.9824949,-117.374238
+Cần Thơ,Vietnam,10.0362046,105.7872656,Shantou,China,23.3563921,116.6775856
+Abergavenny,Wales,51.8213212,-3.0147935,Beaupréau-en-Mauges,France,47.2027921,-0.9183549
+Abergavenny,Wales,51.8213212,-3.0147935,Östringen,Germany,49.2187372,8.7102268
+Abergele,Wales,53.2840692,-3.5810655,Roissy-en-Brie,France,48.7903787,2.6545195
+Abertillery,Wales,51.7299485,-3.1359867,Royat,France,45.7643631,3.0477919
+Adršpach,Czech Republic,50.6189263,16.108519,Lubawka,Poland,50.7070882,16.0003894
+Adršpach,Czech Republic,50.6189263,16.108519,Radków,Poland,50.5042182,16.401351
+Albrechtice nad Orlicí,Czech Republic,50.1399486,16.0644107,Wörgl,Austria,47.4872718,12.0637633
+Albrechtice nad Vltavou,Czech Republic,49.2558746,14.3080398,Siselen,Switzerland,47.0325112,7.1882602
+Andělská Hora,Czech Republic,50.0608138,17.3890959,Reńska Wieś,Poland,50.3142539,18.1250284
+Alkmaar,Netherlands,52.6008538,4.8170994,Bath,"England, United Kingdom",51.3813864,-2.3596963
+Alkmaar,Netherlands,52.6008538,4.8170994,Bergama,Turkey,39.1189476,27.1773642
+Alkmaar,Netherlands,52.6008538,4.8170994,Darmstadt,Germany,49.872775,8.651177
+Alkmaar,Netherlands,52.6008538,4.8170994,Tata,Hungary,47.6516214,18.3282083
+Alkmaar,Netherlands,52.6008538,4.8170994,Troyes,France,48.2971626,4.0746257
+Adare,Republic of Ireland,52.5636631,-8.7923958,Buckow,Germany,52.5672167,14.0761529
+Adare,Republic of Ireland,52.5636631,-8.7923958,Villecresnes,France,48.7208822,2.5327265
+Ardee,Republic of Ireland,53.8553092,-6.5389138,Nettuno,Italy,41.4575382,12.661425
+Antrim and Newtownabbey,United Kingdom,54.6744369,-5.9650943,Dorsten,Germany,51.6604071,6.9647431
+Antrim and Newtownabbey,United Kingdom,54.6744369,-5.9650943,Gilbert,United States,33.3527632,-111.789037
+Antrim and Newtownabbey,United Kingdom,54.6744369,-5.9650943,Rybnik,Poland,50.1105691,18.5531874
+Ards and North Down,United Kingdom,54.5734093,-5.7027237,Virginia Beach,United States,36.8496579,-75.9760751
+Armagh,United Kingdom,54.3161086,-6.7189182,Razgrad,Bulgaria,43.6394793,26.7022408
+Athens,United States,33.9597677,-83.376398,Stonehaven,"Scotland, United Kingdom",56.9640234,-2.2087993
+Birmingham,United States,33.5206824,-86.8024326,Anshan,China,40.822222,122.8275
+Birmingham,United States,33.5206824,-86.8024326,Apaaso,Ghana,6.6138755,-1.6159397
+Birmingham,United States,33.5206824,-86.8024326,Guédiawaye,Senegal,14.7771207,-17.390071
+Birmingham,United States,33.5206824,-86.8024326,Hitachi,Japan,35.3802138,139.1936185
+Birmingham,United States,33.5206824,-86.8024326,Al-Karak,Jordan,31.1847222,35.7047218
+Birmingham,United States,33.5206824,-86.8024326,Kingston,Jamaica,17.9712148,-76.7928128
+Birmingham,United States,33.5206824,-86.8024326,Liverpool,"England, United Kingdom",53.4071991,-2.99168
+Birmingham,United States,33.5206824,-86.8024326,Maebashi,Japan,36.3893418,139.0632826
+Birmingham,United States,33.5206824,-86.8024326,Plzeň,Czech Republic,49.7477415,13.3775249
+Birmingham,United States,33.5206824,-86.8024326,Rosh HaAyin,Israel,32.0952929,34.9533225
+Birmingham,United States,33.5206824,-86.8024326,Székesfehérvár,Hungary,47.1910169,18.410811
+Birmingham,United States,33.5206824,-86.8024326,Vinnytsia,Ukraine,48.8990315,28.516068
+Birmingham,United States,33.5206824,-86.8024326,Winneba,Ghana,5.35006,-0.62134
+Cullman,United States,34.1335332,-86.8779268,Frankweiler,Germany,49.227802,8.0580516
+Foley,United States,45.663512,-93.9137277,Hennef,Germany,50.7754417,7.2847945
+Huntsville,United States,34.729847,-86.5859011,Tainan,Taiwan,22.9912348,120.184982
